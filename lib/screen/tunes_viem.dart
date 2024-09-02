@@ -25,12 +25,19 @@ class TunesVuem extends StatelessWidget {
         backgroundColor: const Color(0xff253238),
         elevation: 0,
       ),
-      body: ListView.builder(
-        itemCount: item.length,
-        itemBuilder: (context, index) {
-          return tuneViem(tune: item[index]);
-        },
+      body: Column(
+        children: item
+            .map(
+              (e) => TuneViem(tune: e),
+            )
+            .toList(),
       ),
     );
   }
 }
+ // body: ListView.builder(
+      //   itemCount: item.length,
+      //   itemBuilder: (context, index) {
+      //     return tuneViem(tune: item[index]);
+      //   },
+      // ),
