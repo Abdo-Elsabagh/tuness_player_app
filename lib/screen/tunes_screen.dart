@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:tuness_player_app/widgets/tunes_item.dart';
 import 'package:tuness_player_app/model/tunes_model.dart';
-import 'package:tuness_player_app/viems/tunes_item.dart';
 
 class TunesVuem extends StatelessWidget {
   TunesVuem({super.key});
@@ -35,6 +35,17 @@ class TunesVuem extends StatelessWidget {
     );
   }
 }
+
+  // List<TuneItem> getTuneItems() {
+  //   List<TuneItem> items = [];
+
+  //   for (var color in tuneColors) {
+  //     items.add(TuneItem(color: color));
+  //   }
+  //   return items;
+  // }
+
+  
  // body: ListView.builder(
       //   itemCount: item.length,
       //   itemBuilder: (context, index) {

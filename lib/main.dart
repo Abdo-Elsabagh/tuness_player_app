@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tuness_player_app/screen/tunes_viem.dart';
+import 'package:tuness_player_app/screen/tunes_screen.dart';
 
 void main() {
   runApp(const MyApp());
